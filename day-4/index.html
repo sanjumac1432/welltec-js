@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let department = 2;
+        let rating = 5;
+        let salary = 20000;
+        let hike = 0;
+
+        if (department == 1) {
+            if (rating == 1) {
+                hike = salary * 0.02
+
+                console.log(hike + salary)
+            }
+            else if (rating == 2) {
+                hike = salary * 0.04
+
+                console.log(hike + salary)
+
+            }
+            else if (rating == 3) {
+                // console.log( (20000)*0.05)
+                hike = salary * 0.05
+                console.log(hike + salary)
+            }
+            else if (rating == 4) {
+                // console.log( (20000)*0.08)
+                hike = salary * 0.08;
+                console.log(hike + salary)
+            }
+            else {
+                // console.log( (20000)*0.10)
+                hike = salary * 0.10;
+                console.log(hike + salary)
+            }
+        }
+
+        else {
+            if (department == 2) {
+                if (rating == 1) {
+                    // console.log( (20000)*0.04)
+                    hike = salary * 0.04
+                    console.log(hike + salary)
+                }
+
+                else if (rating == 2) {
+                    hike = salary * 0.08
+                    console.log(hike + salary)
+
+                }
+
+
+                else if (rating == 3) {
+                    hike = salary * 0.15
+                    console.log(hike + salary)
+
+                }
+
+                else if (rating == 4) {
+
+                    hike = salary * 0.20
+                    console.log(hike + salary)
+                }
+
+                else {
+                    hike = salary * 0.30
+                    console.log(hike + salary)
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>

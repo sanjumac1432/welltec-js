@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+let payrollsalary= (basicsalary)=>
+{
+let hra = basicsalary*0.50; //100000
+let da = basicsalary*0.25; // 50000
+let totalsalary= hra+da+basicsalary; // 350000
+let tax = totalsalary*0.10; // 35000
+let payble = totalsalary- tax;
+
+return payble;
+
+}
+
+let salary = payrollsalary(200000)
+
+console.log(salary)
+
+
+
+
+
+
+    </script>
+</body>
+</html>

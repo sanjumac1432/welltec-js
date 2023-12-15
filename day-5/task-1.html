@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+//         let gross_Salary = (basicsalary)=>
+// {
+//     let hra= basicsalary*0.50;
+//     let da = basicsalary*0.25;
+
+//    let totalSalary = hra-da;
+
+//    let tax = totalSalary*0.10
+
+//    let bs_salary = totalSalary+tax;
+
+//    return bs_salary;
+
+   
+
+    
+// }
+
+// let salary= gross_Salary(200000)
+// console.log("basic Salary is "+salary);
+
+
+
+
+let gross_salary = (basicsalary) =>
+{
+    let hra = basicsalary*0.50;
+    let da = basicsalary*0.25;
+    let total_salary = hra - da;
+
+
+    let tax = total_salary*0.10;
+    let bs_salary= total_salary+tax;
+    return bs_salary;
+}
+
+let salary = gross_salary(400000);
+
+console.log( "your basic salary is "  + salary);
+
+
+
+
+    </script>
+</body>
+</html>

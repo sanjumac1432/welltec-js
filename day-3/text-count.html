@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let income = 1500000;
+        let tax;
+
+        if (income < 300000) {
+            console.log('apko tax pay nahi karna hai')
+        }
+
+        else if (income >= 300000 && income <= 600000) {
+            tax = (income - 300000) * 0.05;
+            console.log(tax)
+        }
+
+        else if (income > 600000 && income <= 900000) {
+            tax = (15000) + (income - 600000) * 0.10
+
+            console.log(tax)
+        }
+        else if (income > 900000 && income <= 1200000) {
+            tax = (45000) + (income - 900000) * 0.15
+
+            console.log(tax)
+        }
+        else if (income > 1200000 && income >= 1500000) {
+            tax = (90000) + (income - 1500000) * 0.20
+            console.log(tax);
+        }
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
